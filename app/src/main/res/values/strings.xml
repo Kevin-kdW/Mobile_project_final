@@ -1,31 +1,32 @@
 <resources>
-    <string name="app_name">Material Design</string>
+    <string name="app_name">Impression</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="dunedin_tours">Dunedin tours and stuff!</string>
-    <string name="home_text">Welcome to the Dunedin app! We\'ll show you where to stay, fun locations, and places to stay.</string>
-    <string-array name="attractions">
-        <item>Steepest street in the world</item>
-        <item>Sandfly bay</item>
-        <item>Devils staircase</item>
-        <item>The octagon</item>
-        <item>Silver peaks</item>
-        <item>Esplanade</item>
-        <item>Tunnel beach</item>
+    <string name="first_frag">Hello blank fragment</string>
+    <string name="restaurant_aoo_name">Impression app</string>
+    <string name="home_text">Welcome to Impression!</string>
+    <string-array name="beef_dishes">
+        <item>Beef friend noodles</item>
+        <item>Mongolian beef</item>
+        <item>Braised beef with ginger</item>
+        <item>Chinese-style braised beef one-pot</item>
+        <item>Chinese Crispy Beef</item>
     </string-array>
-    <string-array name="hotel">
-        <item>Dunedin hotels</item>
-        <item>Scenic hotel</item>
-        <item>High street hotel</item>
+    <string-array name="chicken_dishes">
+        <item>Chicken friend rice</item>
+        <item>Chinese Almond Chicken</item>
+        <item>Moo Shu Chicken</item>
+        <item>Chinese Chicken and Broccoli</item>
+        <item>Chinese Garlic Chicken</item>
     </string-array>
-    <string-array name="restaurant">
-        <item>(Former) Asian restaurant</item>
-        <item>Kento</item>
-        <item>Lone star</item>
-        <item>Golden island</item>
+    <string-array name="vegetarian_dishes">
+        <item>Tofu and Mushroom Stir Fry</item>
+        <item>Vegetarian Chow Mein</item>
+        <item>Vegetarian Fried Rice</item>
+        <item>Spring Vegetable Stir Fry</item>
+        <item>Garlicky Broccoli Stir-Fry</item>
     </string-array>
     <string name="home_tab">Home</string>
-    <string name="attraction_tab">Attractions</string>
-    <string name="restaurant_tab">Restaurants</string>
-    <string name="hotel_tab">Hotels</string>
+    <string name="chicken_dishes">Chicken Dishes</string>
+    <string name="beef_dishes">Beef Dishes</string>
+    <string name="vegetarian_dishes">Vegetarian Dishes</string>
 </resources>

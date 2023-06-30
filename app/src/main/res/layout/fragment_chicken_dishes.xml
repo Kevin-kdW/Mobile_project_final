@@ -5,19 +5,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AttractionFragment"
-    android:orientation="vertical">
-
+    android:orientation="vertical"
+    tools:context=".ChickenDishesFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/fun" />
+        android:src="@drawable/header_chicken_dish1" />
 
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@android:id/list"/>
+
 </LinearLayout>

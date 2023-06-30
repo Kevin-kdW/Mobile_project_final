@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
-import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 import androidx.viewpager2.widget.ViewPager2;
 
@@ -31,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
                 Toast toast = Toast.makeText(MainActivity.this, "Added", Toast.LENGTH_SHORT);
                 toast.show();
 
+
+
             }
         });
         snackbar.show();
@@ -47,13 +48,13 @@ public class MainActivity extends AppCompatActivity {
                 case 0:
                     return new TopFragment();
                 case 1:
-                    return new FeaturedFragment();
+                    return new ChickenDishesFragment();
                 case 2:
-                    return new AttractionFragment();
+                    return new BeefDishesFragment();
                 case 3:
-                    return new RestaurantFragment();
+                    return new VegetarianDishesFragment();
                 case 4:
-                    return new HotelFragment();
+                    return new FeaturedFragment();
                 default:
                     return null;
             }
@@ -73,6 +74,8 @@ public class MainActivity extends AppCompatActivity {
         SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this);
         ViewPager2 viewPager2 = findViewById(R.id.view_pager);
         viewPager2.setAdapter(sectionsPagerAdapter);
+
+
 
         TabLayout tabLayout = findViewById(R.id.tabs);
         new TabLayoutMediator(tabLayout, viewPager2, (tab, position) ->
@@ -97,11 +100,5 @@ public class MainActivity extends AppCompatActivity {
                     throw new IllegalStateException("Unexpected value: " + position);
             }
         }).attach();
-
-        GridLayoutManager gridLayoutManager = new GridLayoutManager(view.getContext(), 2);
-        GridLayoutManager.HORIZONTAL, false);
-        recyclerView.setLayoutManager(gridLayoutManager);
-
-
     }
 }
